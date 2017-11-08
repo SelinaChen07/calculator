@@ -29,7 +29,7 @@ var currentNum = function(totalInput){
 	while(!(isOperator(totalInput[i])|| i === -1)){
 		i--;
 	}
-	return totalInput.substr(i+1, length-1)
+	return totalInput.substring(i+1, length);
 }
 
 $('.num').click(function(event){
