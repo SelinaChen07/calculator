@@ -3,6 +3,10 @@ table{
 	border-collapse: collapse;
 	margin: auto;
 	margin-top: 30px;
+	width: 460px;
+	table-layout: fixed;
+	overflow: hidden;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 caption{
@@ -11,8 +15,8 @@ caption{
 }
 
 th,td{
-	width:80px;
-	height: 80px;
+	width:90px;
+	height: 90px;
 	vertical-align: middle;	
 	font-size: 2em;
 }
